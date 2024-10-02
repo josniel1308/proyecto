@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  background-color: aqua;
+}
+
+
+.menu-container {
+    position: relative; 
+    display: inline-block; 
+}
+
+
+.menu-btn {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 14px 20px; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.menu-btn:hover {
+    background-color: #3e8e41; 
+}
+
+
+.dropdown {
+    display: none;
+    position: absolute; }
+
+.zoomable {
+    width: 200px; 
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+
+.zoomable:hover {
+    transform: scale(1.1); 
+}
+
+.zoomable.active {
+    transform: scale(1.5); 
+}
+
+
